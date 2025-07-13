@@ -1,3 +1,22 @@
-@media screen and(max-width:){
-
+@media screen and (max-width:1249px){
+    /* ============ header부분 */
+    header .top_ad {height:30px;}
+    header .top_ad p {line-height:30px; font-size:0.75rem;}
+    header .gnb_wrap {padding:0 60px;}
+    header .gnb_wrap .bottom_header h1 {width:50px;}
+    header .gnb_wrap .bottom_header h1 a img {width:100%;}
+    header .gnb_wrap .bottom_header .gnb {gap:20px;}
+    header .gnb_wrap .bottom_header .gnb li:nth-of-type(1) {gap:20px;}
+    header .gnb_wrap .bottom_header .right_menu {gap:15px;}
+    header .gnb_wrap .bottom_header .right_menu a {width:20px;}
+    header .gnb_wrap .bottom_header .right_menu a img {width:100%;}
+    /* <!-- ==============1행 --> */
+    .wrap #main .container #main_ad .swiper-wrapper .swiper-slide {padding:30px 60px; gap:10px;}
+    .wrap #main .container #main_ad .swiper-wrapper .swiper-slide h2:nth-of-type(1) {font-size:1.25rem; font-weight:500;}
+    .wrap #main .container #main_ad .swiper-wrapper .swiper-slide h2:nth-of-type(2) {font-size:2.75rem;}
+    .wrap #main .container #main_ad .swiper-wrapper .swiper-slide h2:nth-of-type(2) em {font-size:2.75rem;}
+    .wrap #main .container .swiper-pagination span {margin-right:15px;}
+    /* <!-- ==============2행 --> */
+    .wrap #category .container {
+    width:624px; flex-flow:column nowrap; gap:20px;}
 }

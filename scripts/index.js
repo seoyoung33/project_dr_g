@@ -8,6 +8,7 @@ const mainAd = new Swiper ('#main_ad',{
         type:'bullets'
     }
 });
+/*  */
 const bestItems = new Swiper ('#best_items',{
     loop:true,
     direction:'horizontal',

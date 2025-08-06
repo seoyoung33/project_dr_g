@@ -59,4 +59,4 @@ const videoAll = new Swiper ('#video_all',{
 const bnr = new Swiper ('#ad_bnr_swiper',{
     loop:true,
     direction:'horizontal',
-})
+});

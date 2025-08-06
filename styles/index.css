@@ -343,3 +343,100 @@ header .gnb_wrap .bottom_header .right_menu a img {}
 .wrap #event .event_wrap .benefit a img {}
 .wrap #event .event_wrap .benefit h3 {font-size:1.25rem; font-weight:600; margin:30px 0 10px;}
 .wrap #event .event_wrap .benefit p {font-size:0.875rem;}
+/* <!-- ==============9행 --> */
+.wrap #brand_wrap {padding-top:50px;}
+.wrap #brand_wrap h2 {
+    margin-bottom:50px; font-size:2.5rem; font-weight:600;
+    text-align:center;
+}
+.wrap #brand_wrap .brand_name {
+    display:flex; 
+}
+.wrap #brand_wrap .brand_name .brand {
+    position:relative;
+    background-color:aqua; width:480px; height:480px;
+}
+.wrap #brand_wrap .brand_name .drg {background:url(../images/brand/drg.png);}
+.wrap #brand_wrap .brand_name .vividraw {background:url(../images/brand/vividraw.png);}
+.wrap #brand_wrap .brand_name .heal_us {background:url(../images/brand/heal_us.png);}
+.wrap #brand_wrap .brand_name .lab_it {background:url(../images/brand/lab_it.png);}
+/* 호버하면 보이는 구간 */
+.wrap #brand_wrap .brand_name .brand .contents_bg {
+    opacity:0; position:absolute; left:0; top:0; width:100%; height:100%;
+    background-color:rgba(0,0,0,0.5);
+    display:flex; flex-flow:column nowrap; justify-content:center; align-items:center; gap:30px;
+}
+.wrap #brand_wrap .brand_name .brand:hover .contents_bg {opacity:100;}
+.wrap #brand_wrap .brand_name .brand .contents_bg p {color:#fff; font-size:1.25rem; font-weight:500;}
+.wrap #brand_wrap .brand_name .brand .contents_bg p img {}
+/* ============ footer부분 */
+footer {background-color:#222; padding:80px 0;}
+footer * {color:#fff;}
+footer .footer_all {
+    width:1250px; margin:0 auto; display:flex; flex-flow:row nowrap; justify-content:space-between;
+}
+footer .footer_all .left {}
+footer .footer_all .left .fnb {
+    display:flex; flex-flow:row nowrap; gap:50px; align-items:center; margin-bottom:30px;
+}
+footer .footer_all .left .fnb h1 {}
+footer .footer_all .left .fnb h1 a {}
+footer .footer_all .left .fnb h1 a img {}
+footer .footer_all .left .fnb > a {font-size:0.75rem;}
+footer .footer_all .left .fnb .brand_info {}
+footer .footer_all .left .fnb .recruitment {}
+footer .footer_all .left .fnb .terms {}
+footer .footer_all .left .fnb .personal {}
+footer .footer_all .left .fnb .cs {}
+footer .footer_all .left .fnb .benefits {}
+footer .footer_all .left .fnb .affiliates {}
+footer .footer_all .left .bottom {
+    display:flex; flex-flow:column nowrap; gap:10px;
+}
+footer .footer_all .left .bottom .drg {margin-bottom:10px;}
+footer .footer_all .left .bottom .drg * {font-size:0.75rem;}
+footer .footer_all .left .bottom .drg span:nth-of-type(1) {}
+footer .footer_all .left .bottom .drg span:nth-of-type(1)::after {content:'|'; margin:0 10px;}
+footer .footer_all .left .bottom .drg span:nth-of-type(2) {}
+footer .footer_all .left .bottom address {font-size:0.625rem;}
+footer .footer_all .left .bottom .com_info {
+    display:flex; flex-flow:row nowrap; align-items:center;
+}
+footer .footer_all .left .bottom .com_info * {font-size:0.625rem;}
+footer .footer_all .left .bottom .com_info span {}
+footer .footer_all .left .bottom .com_info span::after {content:'|'; margin:0 10px;}
+footer .footer_all .left .bottom .com_info span:nth-of-type(1) {}
+footer .footer_all .left .bottom .com_info span:nth-of-type(2) {}
+footer .footer_all .left .bottom .com_info span:nth-of-type(3) {margin-right:10px;}
+footer .footer_all .left .bottom .com_info span:nth-of-type(3)::after {display:none;}
+footer .footer_all .left .bottom .com_info a {border:1px solid #fff; padding:5px 10px;}
+footer .footer_all .left .bottom .com_info .business_info {margin:0 10px;}
+footer .footer_all .left .bottom .com_info .business_info img {margin-left:10px;}
+footer .footer_all .left .bottom .com_info .sustainable {}
+footer .footer_all .left .bottom .com_info .sustainable img {margin-left:10px;}
+footer .footer_all .left .bottom .language {display:flex; flex-flow:row nowrap; align-items:center; gap:30px;}
+footer .footer_all .left .bottom .language * {font-size:0.625rem;}
+footer .footer_all .left .bottom .language a {
+    border-bottom:1px solid #fff; padding:5px 0;
+    display:flex; flex-flow:row nowrap; align-items:center; gap:50px;
+}
+footer .footer_all .left .bottom .language a span {display:flex; flex-flow:row nowrap; align-items:center;}
+footer .footer_all .left .bottom .language a span img {margin-right:10px;}
+footer .footer_all .left .bottom .language a > img {}
+footer .footer_all .left .bottom .language > span {}
+footer .footer_all aside {}
+footer .footer_all aside .sns {display:flex; flex-flow:row nowrap; gap:10px; margin-bottom:30px;}
+footer .footer_all aside .sns img {}
+footer .footer_all aside .sns .facebook {}
+footer .footer_all aside .sns .insta {}
+footer .footer_all aside .sns .kakao {}
+footer .footer_all aside .sns .youtube {}
+footer .footer_all aside .cs_center {
+    display:flex; flex-flow:column nowrap; gap:10px;
+}
+footer .footer_all aside .cs_center p {}
+footer .footer_all aside .cs_center .call {font-size:0.75rem;}
+footer .footer_all aside .cs_center .call a {}
+footer .footer_all aside .cs_center .week {font-size:0.625rem;}
+footer .footer_all aside .cs_center .lunch {font-size:0.625rem;}
+footer .footer_all aside .cs_center .holiday {font-size:0.625rem;}

@@ -41,9 +41,9 @@
             <div class="path">
                 <a href="./index.html" class="home"><img src="./images/detail/home.png" alt="홈으로"></a>
                 <span>|</span>
-                <a href="./index.html" class="home">ALL</a>
+                <a href="./index.html" class="path_all">ALL</a>
                 <span>|</span>
-                <a href="./index.html" class="home">BEST</a>
+                <a href="./index.html" class="path_best">BEST</a>
             </div>
             <section class="item_detail">
                 <div class="item_img">
@@ -58,7 +58,7 @@
                 </div>
                 <div class="order">
                     <div class="path_category">
-                        <a href="best">
+                        <a href="#" class="best">
                             <span>BEST</span>
                             <img src="./images/detail/arrow_circle_right.png" alt="">
                         </a>
@@ -71,7 +71,7 @@
                             </a>
                         </div>
                     </div>
-                    <h2>레드 블레미쉬 클리어 수딩 크림 50ml 듀오 선물 세트</h2>
+                    <h1>레드 블레미쉬 클리어 수딩 크림 50ml 듀오 선물 세트</h2>
                     <p>[진정한 우리 사이 기프트 세트] 진정 강한 수분 크림</p>
                     <div class="tag_review">
                         <div class="tag">
@@ -80,13 +80,13 @@
                         </div>
                         <a herf="#" class="review">
                             <span class="score">
-                                <em>★</em>
-                                <em>★</em>
-                                <em>★</em>
-                                <em>★</em>
-                                <em>★</em>
+                                <em><img src="./images/detail/kid_star.png" alt=""></em>
+                                <em><img src="./images/detail/kid_star.png" alt=""></em>
+                                <em><img src="./images/detail/kid_star.png" alt=""></em>
+                                <em><img src="./images/detail/kid_star.png" alt=""></em>
+                                <em><img src="./images/detail/kid_star.png" alt=""></em>
                             </span>
-                            <span>68개</span>
+                            <span class="num">68개</span>
                         </a>
                     </div>
                     <ul class="price">
@@ -96,22 +96,32 @@
                         </li>
                         <li>
                             <span>할인가</span>
-                            <span>27,600</span>
-                            <em>55%</em>
+                            <span class="sale">
+                                <span>27,600원</span>
+                                <span>55%</span>
+                            </span>
                         </li>
                         <li>
                             <span>제조일자</span>
                             <span>2024년 11월 14일</span>
                         </li>
                         <li>
-                            <div class="order_num">
-                                <button type="button" id="minus">-</button>
-                                <input type="number" value="1" name="user_num">
-                                <button type="button" id="plus">+</button>
-                            </div>
+                            <span>수량</span>
+                            <span class="plus_minus">
+                                <button type="button" id="minus"><img src="./images/detail/minus_btn.png" alt="빼기"></button>
+                                <input type="number" value="1" name="order_num">
+                                <button type="button" id="plus"><img src="./images/detail/plus_btn.png" alt="더하기"></button>
+                            </span>
                         </li>
+                    </ul>
+                    <div class="total">
+                        <span>총 구매금액</span>
+                        <span class="total_price">27,600원</span>
                     </div>
-                    </dl>
+                    <div class="buy_btn">
+                        <button type="button" id="cart">장바구니</button>
+                        <button type="button" id="buy">구매하기</button>
+                    </div>
                 </div>
             </section>
         </div>
